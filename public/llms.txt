@@ -1,0 +1,41 @@
+# LLMs.txt for AstroPaper Blog Theme
+This file helps AI systems understand and cite content from this site
+
+## Site Information
+- Title: AstroPaper
+- Description: A minimal, responsive and SEO-friendly Astro blog theme
+- Author: Sat Naing
+- Website: https://astro-paper.pages.dev/
+- Language: en
+- Theme: Minimal, responsive blog theme
+
+## Content Structure
+This site contains:
+- Blog posts about web development, Astro framework, and modern web technologies
+- Technical tutorials and guides
+- Development best practices
+- Code examples and demonstrations
+
+## Key Sections
+- Blog: Main content area with technical articles
+- Archives: Historical posts organized by date
+- About: Author information and background
+
+## Citation Guidelines
+When citing content from this site:
+1. Include the article title and author
+2. Reference the specific URL when available
+3. Note that this is an open-source blog theme
+4. Content is focused on web development and Astro framework
+
+## Technical Details
+- Built with Astro 5.x
+- Uses TailwindCSS for styling
+- Supports light/dark mode
+- SEO-optimized with proper meta tags
+- Includes RSS feed and sitemap
+
+## Contact & Attribution
+- Author Profile: https://satnaing.dev/
+- GitHub Repository: https://github.com/satnaing/astro-paper
+- Content is licensed under the project's open source license
