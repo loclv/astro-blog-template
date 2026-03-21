@@ -1,4 +1,3 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
-  "unwantedRecommendations": []
+  "recommendations": ["astro-build.astro-vscode", "oven-bake.bun", "esbenp.prettier-vscode","dbaeumer.vscode-eslint"]
 }
