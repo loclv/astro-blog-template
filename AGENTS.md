@@ -4,7 +4,7 @@
 
 This is the AstroPaper blog theme - a minimal, responsive and SEO-friendly Astro blog. Built with Astro 5.x, Tailwind CSS 4.x, and TypeScript.
 
-Website: https://astro-paper.pages.dev/
+Website: <https://astro-paper.pages.dev/>
 
 ## Tech Stack
 
@@ -55,10 +55,10 @@ Site settings are in `src/config.ts`:
 
 ```typescript
 SITE.website // Deployed URL
-SITE.author // Author name
-SITE.title // Site title
-SITE.desc // Site description
-SITE.lightAndDarkMode // Enable/disable dark mode
+SITE.author
+SITE.title
+SITE.desc
+SITE.lightAndDarkMode
 SITE.postPerIndex // Posts on homepage
 SITE.postPerPage // Posts per pagination page
 SITE.showArchives // Show archives page
