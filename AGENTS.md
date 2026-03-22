@@ -145,7 +145,7 @@ Powered by Pagefind. Built during `bun run build` and served from `/public/pagef
 ## Path Aliases
 
 ```typescript
-@import "@/config";     // -> src/config.ts
+@import "@/config"; // -> src/config.ts
 @import "@/constants"; // -> src/constants.ts
 @import "@/components/*"; // -> src/components/*
 ```
