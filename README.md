@@ -40,38 +40,64 @@ _Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver**
 
 Inside of AstroPaper, you'll see the following folders and files:
 
-```bash
-/
-├── public/
-│   ├── pagefind/ # auto-generated when build
-│   ├── favicon.svg
-│   └── astropaper-og.jpg
-├── src/
-│   ├── assets/
-│   │   ├── icons/
-│   │   └── images/
-│   ├── components/
-│   ├── data/
-│   │   └── blog/
-│   │       └── some-blog-posts.md
-│   ├── layouts/
-│   ├── pages/
-│   ├── scripts/
-│   ├── styles/
-│   ├── utils/
-│   ├── config.ts
-│   ├── constants.ts
-│   ├── content.config.ts
-│   ├── env.d.ts
-│   └── remark-collapse.d.ts
-└── astro.config.ts
-```
+### Root Level
+
+- `astro.config.ts` - Astro framework configuration file
+
+### Public Directory (`public/`)
+
+Static assets served directly without processing:
+
+- `pagefind/` - Auto-generated search index (created during build)
+- `favicon.svg` - Site favicon icon
+- `astropaper-og.jpg` - Open Graph image for social media sharing
+
+### Source Directory (`src/`)
+
+Assets (`src/assets/`)
+
+- `icons/` - Icon files
+- `images/` - Image assets
+
+Components (`src/components/`)
+
+- Reusable Astro components
+
+Content (`src/data/`)
+
+- `blog/` - Blog post markdown files (e.g., `some-blog-posts.md`)
+
+Layouts (`src/layouts/`)
+
+- Page layout templates
+
+Pages (`src/pages/`)
+
+- Route-based page files
+
+Scripts (`src/scripts/`)
+
+- JavaScript/TypeScript utilities
+
+Styles (`src/styles/`)
+
+- CSS/styling files
+
+Utilities (`src/utils/`)
+
+- Helper functions and utilities
+
+Configuration Files (`src/`)
+
+- `config.ts` - Site configuration settings
+- `constants.ts` - Application constants
+- `content.config.ts` - Content collection configuration
+- `env.d.ts` - TypeScript environment definitions
+- `remark-collapse.d.ts` - Type definitions for remark-collapse plugin
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
 Any static assets, like images, can be placed in the `public/` directory.
-
-All blog posts are stored in `src/data/blog` directory.
 
 ## 📖 Documentation
 
