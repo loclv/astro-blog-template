@@ -25,8 +25,8 @@ Use this skill when working with Astro projects:
 
 Astro components are the building blocks of an Astro site. They use a special file format with two parts:
 
-1. **Component Script** (between `---` fences) - Server-side TypeScript/JavaScript
-2. **Component Template** - HTML-like syntax with Astro expressions
+1. Component Script (between `---` fences) - Server-side TypeScript/JavaScript
+2. Component Template - HTML-like syntax with Astro expressions
 
 ```astro
 ---
@@ -45,7 +45,7 @@ const title = "My Page";
 
 Content collections provide type-safe access to your content (Markdown/MDX files).
 
-**Schema Definition** (`src/content.config.ts`):
+Schema Definition (`src/content.config.ts`):
 
 ```typescript
 import { defineCollection, z } from "astro:content";
@@ -65,7 +65,7 @@ const blog = defineCollection({
 export const collections = { blog };
 ```
 
-**Querying Content**:
+Querying Content:
 
 ```typescript
 import { getCollection } from "astro:content";
