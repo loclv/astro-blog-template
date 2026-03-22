@@ -150,6 +150,10 @@ Powered by Pagefind. Built during `bun run build` and served from `/public/pagef
 @import "@/components/*"; // -> src/components/*
 ```
 
+## Set constant
+
+Replace multiplication expression with explicit value using numeric separators for better readability. Add clarifying comment showing the calculation breakdown.
+
 ## AI Agent / LLM for development Guidelines
 
 ### Logs
