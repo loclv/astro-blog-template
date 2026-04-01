@@ -10,7 +10,8 @@
     "astro": "astro",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "copy:llm": "bun scripts/copy-blog-posts-for-llm.ts"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.14",
