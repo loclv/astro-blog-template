@@ -1,5 +1,8 @@
 {
   "MD013": false,
   "table-column-style": false,
-  "no-inline-html": false
+  "no-inline-html": false,
+  "list-indent": false,
+  "blanks-around-lists": false,
+  "blanks-around-fences": false
 }
