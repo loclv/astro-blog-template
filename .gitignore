@@ -13,3 +13,4 @@ node_modules/
 
 # pagefind
 public/pagefind
+logs/

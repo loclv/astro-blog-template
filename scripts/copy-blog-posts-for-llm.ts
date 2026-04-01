@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 /**
- * Copy blog posts to public/llm-content for LLM training.
+ * Copy blog posts to public/blog for LLM training.
  * Usage: `bun scripts/copy-blog-posts-for-llm.ts`
  */
 import fs from "node:fs";
@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 const BLOG_PATH = path.join(ROOT, "src/data/blog");
-const PUBLIC_PATH = path.join(ROOT, "public/llm-content");
+const PUBLIC_PATH = path.join(ROOT, "public/blog");
 
 const mdPattern = /\.md$/;
 
