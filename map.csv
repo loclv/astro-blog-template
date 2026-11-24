@@ -1,0 +1,136 @@
+name,description,path
+agents,author: string # Default: SITE.author,AGENTS.md
+astropaper-lighthouse-score,,AstroPaper-lighthouse-score.svg
+changelog,Changelog,CHANGELOG.md
+dockerfile,,Dockerfile
+license,,LICENSE
+readme,Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).,README.md
+astro-config,TypeScript module: astro-config.,astro.config.ts
+bun,,bun.lock
+cz,,cz.yaml
+docker-compose,,docker-compose.yml
+,Docs,docs/
+astro-v6-migration,Astro v5 → v6 Migration Checklist,docs/astro-v6-migration.md
+eslint-config,""", "".astro"", ""public/pagefind/**""] },",eslint.config.js
+,Public,public/
+astropaper-og,,public/astropaper-og.jpg
+favicon,,public/favicon.svg
+llms,# LLMs.txt for AstroPaper Blog Theme,public/llms.txt
+,Scripts,scripts/
+copy-blog-posts-for-llm,Copy blog posts to public/blog for LLM training.,scripts/copy-blog-posts-for-llm.ts
+,Src,src/
+,Assets,src/assets/
+,Icons,src/assets/icons/
+iconarchive,,src/assets/icons/IconArchive.svg
+iconarrowleft,,src/assets/icons/IconArrowLeft.svg
+iconarrownarrowup,,src/assets/icons/IconArrowNarrowUp.svg
+iconarrowright,,src/assets/icons/IconArrowRight.svg
+iconbrandx,,src/assets/icons/IconBrandX.svg
+iconcalendar,,src/assets/icons/IconCalendar.svg
+iconchevronleft,,src/assets/icons/IconChevronLeft.svg
+iconchevronright,,src/assets/icons/IconChevronRight.svg
+iconedit,,src/assets/icons/IconEdit.svg
+iconfacebook,,src/assets/icons/IconFacebook.svg
+icongithub,,src/assets/icons/IconGitHub.svg
+iconhash,,src/assets/icons/IconHash.svg
+iconlinkedin,,src/assets/icons/IconLinkedin.svg
+iconmail,,src/assets/icons/IconMail.svg
+iconmenudeep,,src/assets/icons/IconMenuDeep.svg
+iconmoon,,src/assets/icons/IconMoon.svg
+iconpinterest,,src/assets/icons/IconPinterest.svg
+iconrss,,src/assets/icons/IconRss.svg
+iconsearch,,src/assets/icons/IconSearch.svg
+iconsunhigh,,src/assets/icons/IconSunHigh.svg
+icontelegram,,src/assets/icons/IconTelegram.svg
+iconwhatsapp,,src/assets/icons/IconWhatsapp.svg
+iconx,,src/assets/icons/IconX.svg
+,Images,src/assets/images/
+astropaper-v3,,src/assets/images/AstroPaper-v3.png
+astropaper-v4,,src/assets/images/AstroPaper-v4.png
+astropaper-v5,,src/assets/images/AstroPaper-v5.png
+forrest-gump-quote,,src/assets/images/forrest-gump-quote.png
+,Components,src/components/
+backbutton,,src/components/BackButton.astro
+backtotopbutton,,src/components/BackToTopButton.astro
+breadcrumb,,src/components/Breadcrumb.astro
+card,,src/components/Card.astro
+datetime,,src/components/Datetime.astro
+editpost,,src/components/EditPost.astro
+footer,,src/components/Footer.astro
+header,,src/components/Header.astro
+linkbutton,,src/components/LinkButton.astro
+pagination,,src/components/Pagination.astro
+sharelinks,,src/components/ShareLinks.astro
+socials,,src/components/Socials.astro
+tag,,src/components/Tag.astro
+config,TypeScript module: config.,src/config.ts
+constants,TypeScript module: constants.,src/constants.ts
+content-config,TypeScript module: content-config.,src/content.config.ts
+,Data,src/data/
+,Blog,src/data/blog/
+, Releases,src/data/blog/_releases/
+astro-paper-2,"Astro 2.0 has been released with some cool features, breaking changes, DX improvements, better error overlay and so on. AstroPaper takes advantage of those cool features, especially Content Collections API.",src/data/blog/_releases/astro-paper-2.md
+astro-paper-3,"We're excited to announce the release of AstroPaper v3, packed with new features, enhancements, and bug fixes to elevate your web development experience. Let's dive into the highlights of this release:",src/data/blog/_releases/astro-paper-3.md
+astro-paper-4,"Hello everyone! Wishing you a happy New Year 🎉 and all the best for 2024! We're excited to announce the release of AstroPaper v4, a significant update that introduces a range of new features, improvements, and bug fixes to elevate your blogging experience. A big thank you to all the contributors for their valuable input and efforts in making version 4 possible!",src/data/blog/_releases/astro-paper-4.md
+astro-paper-5,"At last, the long-awaited AstroPaper v5 is finally here. AstroPaper v5 keeps the same minimal & clean look, but comes with significant updates under the hood.",src/data/blog/_releases/astro-paper-5.md
+adding-new-post,"Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.",src/data/blog/adding-new-post.md
+customizing-astropaper-theme-color-schemes,"This post will explain how you can enable/disable light & dark mode for the website. Moreover, you'll learn how you can customize color schemes of the entire website.",src/data/blog/customizing-astropaper-theme-color-schemes.md
+dynamic-og-images,"New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.",src/data/blog/dynamic-og-images.md
+,Examples,src/data/blog/examples/
+example-draft-post,Users cannot see this post because it is in draft.,src/data/blog/examples/example-draft-post.md
+portfolio-website-development,> This article is originally from my [blog post](https://satnaing.dev/blog/posts/how-do-i-develop-my-portfolio-and-blog). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.,src/data/blog/examples/portfolio-website-development.md
+tailwind-typography,> This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.,src/data/blog/examples/tailwind-typography.md
+terminal-development,> This article is originally from my [blog post](https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.,src/data/blog/examples/terminal-development.md
+how-to-add-latex-equations-in-blog-posts,This document demonstrates how to use LaTeX equations in your Markdown files for AstroPaper. LaTeX is a powerful typesetting system often used for mathematical and scientific documents.,src/data/blog/how-to-add-latex-equations-in-blog-posts.md
+how-to-configure-astropaper-theme,"AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.",src/data/blog/how-to-configure-astropaper-theme.md
+how-to-integrate-giscus-comments,"Hosting a thin static blog on a platform like [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) has numerous advantages, but also takes away some interactivity. Fortunately, [Giscus](https://giscus.app/) exists and offers a way to embed user comments on static sites.",src/data/blog/how-to-integrate-giscus-comments.md
+how-to-update-dependencies,"Updating the dependencies of a project can be tedious. However, neglecting to update project dependencies is not a good idea either 😬. In this post, I will share how I usually update my projects, focusing on AstroPaper as an example. Nonetheless, these steps can be applied to other js/node projects as well.",src/data/blog/how-to-update-dependencies.md
+predefined-color-schemes,I've crafted some predefined color schemes for this AstroPaper blog theme. You can replace these color schemes with the original ones.,src/data/blog/predefined-color-schemes.md
+setting-dates-via-git-hooks,In this post I will explain how to use the pre-commit Git hook to automate the input of the created (`pubDatetime`) and modified (`modDatetime`) in the AstroPaper blog theme frontmatter,src/data/blog/setting-dates-via-git-hooks.md
+env-d,TypeScript module: env-d.,src/env.d.ts
+,Layouts,src/layouts/
+aboutlayout,,src/layouts/AboutLayout.astro
+layout,,src/layouts/Layout.astro
+main,,src/layouts/Main.astro
+postdetails,,src/layouts/PostDetails.astro
+,Pages,src/pages/
+404,,src/pages/404.astro
+about,"AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).",src/pages/about.md
+,Archives,src/pages/archives/
+index,,src/pages/archives/index.astro
+index,,src/pages/index.astro
+llms-txt,LLMs.txt endpoint for AI systems,src/pages/llms.txt.ts
+og-png,TypeScript module: og-png.,src/pages/og.png.ts
+,Posts,src/pages/posts/
+----page-,,src/pages/posts/[...page].astro
+,Slug,src/pages/posts/[...slug]/
+index,,src/pages/posts/[...slug]/index.astro
+index-png,TypeScript module: index-png.,src/pages/posts/[...slug]/index.png.ts
+robots-txt,TypeScript module: robots-txt.,src/pages/robots.txt.ts
+rss-xml,TypeScript module: rss-xml.,src/pages/rss.xml.ts
+search,,src/pages/search.astro
+,Tags,src/pages/tags/
+,Tag,src/pages/tags/[tag]/
+----page-,,src/pages/tags/[tag]/[...page].astro
+index,,src/pages/tags/index.astro
+remark-collapse-d,TypeScript module: remark-collapse-d.,src/remark-collapse.d.ts
+,Scripts,src/scripts/
+theme,Constants,src/scripts/theme.ts
+,Styles,src/styles/
+global,,src/styles/global.css
+typography,,src/styles/typography.css
+,Utils,src/utils/
+generateogimages,TypeScript module: generateogimages.,src/utils/generateOgImages.ts
+getpath,Get full path of a blog post,src/utils/getPath.ts
+getpostsbygroupcondition,TypeScript module: getpostsbygroupcondition.,src/utils/getPostsByGroupCondition.ts
+getpostsbytag,TypeScript module: getpostsbytag.,src/utils/getPostsByTag.ts
+getsortedposts,TypeScript module: getsortedposts.,src/utils/getSortedPosts.ts
+getuniquetags,TypeScript module: getuniquetags.,src/utils/getUniqueTags.ts
+loadgooglefont,TypeScript module: loadgooglefont.,src/utils/loadGoogleFont.ts
+,Og Templates,src/utils/og-templates/
+post,JavaScript module: post.,src/utils/og-templates/post.js
+site,JavaScript module: site.,src/utils/og-templates/site.js
+postfilter,TypeScript module: postfilter.,src/utils/postFilter.ts
+slugify,Check if string contains non-Latin characters,src/utils/slugify.ts
+,Transformers,src/utils/transformers/
+filename,CustomShiki transformer that adds file name labels to code blocks.,src/utils/transformers/fileName.js
