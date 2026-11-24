@@ -1,8 +1,8 @@
-# AGENTS.md - AstroPaper Blog Project
+# AstroPaper Blog Project
 
 ## Project Overview
 
-This is the AstroPaper blog theme - a minimal, responsive and SEO-friendly Astro blog. Built with Astro 5.x, Tailwind CSS 4.x, and TypeScript.
+This is the AstroPaper blog theme - a minimal, responsive and SEO-friendly Astro blog. Built with Astro, Tailwind CSS, and TypeScript.
 
 Website: <https://astro-paper.pages.dev/>
 
@@ -169,13 +169,3 @@ Before run:
 - Install the l-log CLI if not already installed: `bun add -g llm-lean-log-cli`.
 - If need, run CLI help command: `l-log -h` for more information.
 - log path: `./logs/chat.csv`.
-
-### When write markdown files
-
-- No bold text: **bold** and __bold__ are rejected (errors), except in code blocks
-- Heading structure: Multiple H1 headings and skipped heading levels are rejected (errors)
-- Table syntax: Complex table attributes and incorrect separator format are rejected (errors)
-- Simple table syntax: Very wide tables and inline formatting in cells are rejected (errors)
-- No ASCII graphs: Box drawing characters and visual patterns are rejected, even in code blocks - (errors)
-- Code block best practices: Code blocks without language specification are rejected (errors)
-- Space indentation: Excessive indentation (more than 2 spaces) in regular text is rejected (errors) (code blocks exempt)
